@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+/*NULL*/
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  color: #000;
+  font-family: "Geometria Regular";
+  font-weight: 400;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  font-family: "Roboto", sans-serif;
+  color: rgb(59, 63, 71);
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+._container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  box-sizing: content-box;
+  margin-bottom: 50px;
+}
+/* main */
+
+.header {
+}
+.header__container {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header__title {
+  font-size: 30px;
+}
+.page {
+}
+.page__info {
+}
+.info {
+}
+.info__container {
+  display: flex;
+}
+.info__img {
+  margin-right: 20px;
+}
+.info__img img {
+  width: 200px;
+  height: 230px;
+}
+.info__body {
+}
+.info__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.info__title {
+}
+.info_description {
+  font-weight: 600;
+  line-height: 130%;
+}
+@media (max-width: 605px) {
+  .info__container {
+    flex-direction: column;
+  }
+  .info__img {
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+}
+.page__target {
+}
+.target {
+}
+.target__container {
+}
+.target__title {
+}
+.title {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+.title__page {
+}
+.target__list {
+}
+.target__items {
+}
+.target__item {
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+.page__time {
+}
+.time {
+}
+.time__container {
+}
+.time__title {
+}
+.time__table {
+}
+.table__item {
+  margin: 0 auto;
+}
+.time__row {
+}
+.time__col {
+  width: 130px;
+  height: 20px;
+  text-align: start;
+}
+.time__col:last-child {
+  text-align: center;
+}
+.page__course {
+}
+.course {
+}
+.course__container {
+}
+.course__title {
+
+}
+.course__table {
+
+}
+.course__item {
+  margin: 0 auto;
+  border-collapse:collapse;
+}
+
+}
+.course__row {
+    
+}
+.course__row:first-child{
+    font-weight: 700;
+    height: 50px;
+    
+}
+.course__row:last-child{
+}
+
+
+.course__col {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+.course__col:last-child{
+    height: 40px;
+}
+._h{
+    border-bottom: 2px solid #000;
+}
+.page__contacts {
+}
+.contacts {
+}
+.contacts__container {
+}
+.contacts__title {
+}
+.contacts__items{
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 400px;
+}
+.contacts__item {
+    display: flex;
+    flex-direction: column;
+}
+.contacts__link_img img{
+    width: 50px;
+    height: 50px;
+}
+.contacts__icon {
+}
+.contacts__link{
+color: rgb(59, 63, 71);
+margin-top: 10px;
+}
